@@ -28,6 +28,7 @@ body {
   border-radius: 55%;
   background-color: #4070f4;
   padding: 3px;
+  margin-bottom: 10px;
 }
 
 .image .profile-img {
@@ -36,4 +37,20 @@ body {
   object-fit: cover;
   border-radius: 55%;
   border: 3px solid #fff;
+}
+
+.profile-card .text-data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text-data .name {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.text-data .job {
+  font-size: 22px;
+  font-weight: 400;
 }
