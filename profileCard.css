@@ -54,3 +54,23 @@ body {
   font-size: 22px;
   font-weight: 400;
 }
+
+.profile-card .media-buttons {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.media-buttons .link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 18px;
+  height: 34px;
+  width: 34px;
+  border-radius: 55%;
+  margin: 0 8px;
+  background-color: #4070f4;
+  text-decoration: none;
+}
