@@ -1,6 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
 * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
 
@@ -8,9 +11,15 @@
   position: relative;
   height: 175px;
   width: 150px;
+  border-radius: 55%;
+  background-color: #4070f4;
+  padding: 3px;
 }
 
 .image .profile-img {
   height: 100%;
   width: 100%;
+  object-fit: cover;
+  border-radius: 55%;
+  border: 3px solid #fff;
 }
